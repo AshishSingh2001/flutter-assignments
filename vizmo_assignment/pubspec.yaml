@@ -1,0 +1,39 @@
+name: vizmo
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  bloc: ^8.0.3
+  bloc_concurrency: ^0.2.0
+  cached_network_image: ^3.2.0
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_gen: ^4.1.6
+  freezed_annotation: ^1.1.0
+  intl: ^0.17.0
+  stream_transform: ^2.0.0
+  vizmo_api: 
+    path: packages/vizmo_api
+  vizmo_repository: 
+    path: packages/vizmo_repository
+  
+dev_dependencies:
+  bloc_test: ^9.0.3
+  build_runner:
+  flutter_test:
+    sdk: flutter
+  freezed: ^1.1.0
+  json_serializable: ^6.1.6
+  mocktail: ^0.3.0
+  very_good_analysis: ^2.4.0
+
+
+flutter:
+  uses-material-design: true
+  generate: true
